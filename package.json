@@ -7,10 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
-    "lint": "eslint --ext ts src/",
-    "fix": "eslint --fix src/*.ts",
-    "wirte": "prettier --write src/*.ts",
-    "stag": "lint-staged"
+    "eslint": "eslint --ext ts src/",
+    "eslint:fix": "eslint --fix src/*.ts",
+    "prettier": "prettier --write src/*.ts",
+    "lint": "lint-staged"
   },
   "keywords": [],
   "author": "",
